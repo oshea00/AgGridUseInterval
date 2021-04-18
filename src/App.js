@@ -10,7 +10,7 @@ import { useInterval } from "./useInterval";
 
 export default function App() {
   let [count, setCount] = useState(0);
-  let [delay, setDelay] = useState(1000);
+  let [delay, setDelay] = useState(null);
   const [runWorker, setRunWorker] = useState(false);
   const [rowData] = useState([
     {
